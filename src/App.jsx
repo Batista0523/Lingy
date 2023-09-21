@@ -5,11 +5,15 @@ import QuizzesPage from './components/QuizzesPage';
 import SpeakingPractice from './components/SpeakingPractice';
 import VocabularyBuilder from './components/VocabularyBuilder';
 import './App.css';
+import NavBar from './components/NavBar';
 
 function App() {
   return (
     <div>
-      <h1>Lingy</h1>
+      <div>
+       <NavBar/>
+      </div>
+     
       <Router>
         <Routes>
           <Route path="/" element={<LanguageSelection />} />
