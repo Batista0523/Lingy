@@ -1,9 +1,9 @@
 import { getApiKey } from './api';
 
 export function getBaseUrl() {
-  const BASE_URL = `${getApiKey()}/$discovery/rest?version=v3`;
-  const API_KEY = import.meta.env.VITE_TRANSLATE_API_KEY;
+  const BASE_URL = 'https://translation.googleapis.com/language/translate/v2';
+  const API_KEY = getApiKey();
 
-  const completeURL = `${BASE_URL}&key=${API_KEY}`;
+  const completeURL = `${BASE_URL}?key=${API_KEY}`;
   return completeURL;
 }
