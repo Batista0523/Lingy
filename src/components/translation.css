@@ -1,0 +1,32 @@
+.translation-form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .translation-form h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .translation-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .translation-form select,
+  .translation-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .translation-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
+  .translation-form .translated-text {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
